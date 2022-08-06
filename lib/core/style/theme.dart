@@ -33,24 +33,7 @@ ThemeData lightThemeData(BuildContext context) {
     buttonTheme: const ButtonThemeData(
       buttonColor: primaryColor,
     ),
-    dialogTheme: DialogTheme(
-      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-      shape: const RoundedRectangleBorder(
-          borderRadius: BorderRadius.all(Radius.circular(10.0))),
-      titleTextStyle: Theme.of(context)
-          .textTheme
-          .headline6!
-          .copyWith(color: kContentColorLightTheme),
-      contentTextStyle:
-          Theme.of(context).textTheme.bodyText2!.copyWith(color: kAccentColor),
-    ),
     hoverColor: Colors.grey[200],
-    colorScheme: const ColorScheme.light(
-        primary: kPrimaryColor,
-        secondary: kSecondaryColor,
-        error: kErrorColor,
-        background: Colors.white,
-        onPrimary: bgColor),
     dialogBackgroundColor: Colors.white,
     textButtonTheme: TextButtonThemeData(
         style: ButtonStyle(
@@ -90,7 +73,7 @@ ThemeData lightThemeData(BuildContext context) {
 }
 
 const appBarTheme = AppBarTheme(
-    centerTitle: false, elevation: 0, backgroundColor: lightModeBackgroundClr);
+    centerTitle: false, elevation: 0, backgroundColor: kContentColorLightTheme);
 
 var darkAppBarTheme = const AppBarTheme(
     centerTitle: false, elevation: 0, backgroundColor: Colors.black);
