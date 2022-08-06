@@ -2,12 +2,6 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 
-const buttonTextColor = Color(0xFF4C4BF3);
-const shadowColor = Color(0xFF4d44c9);
-const textFieldBorderColor = Color(0xFFD0DBEA);
-const textFieldColor = Color(0xFF7b67f3);
-const bottomTabbarColor = Color(0xFF7674FF);
-const boxColor = Color(0XFFCEEBFC);
 const boxItemColor = Color(0XFF9d88f5);
 const primaryColor = Color(0xFF4248F3);
 const kSecondaryColor = Color(0xFF8C62F1);
